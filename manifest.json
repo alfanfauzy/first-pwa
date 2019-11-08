@@ -1,0 +1,16 @@
+{
+    "name": "Alfan Fauzy",
+    "short_name": "Alfan Fauzy",
+    "description": "Aplikasi Submission 1 - Alfan Fauzy",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#00897B",
+    "theme_color": "#00897B",
+    "icons": [
+        {
+            "src": "icon.png",
+            "sizes": "215x215",
+            "type": "image/png"
+        }
+    ]
+}
