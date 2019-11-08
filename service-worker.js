@@ -1,15 +1,26 @@
-const CACHE_NAME = "firstpwa-v2";
+const CACHE_NAME = "pwasubmission-v1";
 var urlsToCache = [
-  "/first-pwa/",
-  "/first-pwa/nav.html",
-  "/first-pwa/index.html",
-  "/first-pwa/pages/home.html",
-  "/first-pwa/pages/about.html",
-  "/first-pwa/pages/contact.html",
-  "/first-pwa/css/materialize.min.css",
-  "/first-pwa/js/materialize.min.js",
-  "/first-pwa/js/nav.js",
-  "/first-pwa/icon.png"
+  "/",
+  "/nav.html",
+  "/index.html",
+  "/pages/home.html",
+  "/pages/profile.html",
+  "/pages/contact.html",
+  "/pages/portofolio.html",
+  "/css/materialize.min.css",
+  "/css/custom.css",
+  "/js/materialize.min.js",
+  "/js/nav.js",
+  "/icon.png",
+  "/img/img-home1.jpg",
+  "/img/img-profile1.jpg",
+  "/img/telkom-logo.png",
+  "/img/xxi-logo.png",
+  "/img/icon-socmed/icons8-facebook-color.svg",
+  "/img/icon-socmed/icons8-github-color.svg",
+  "/img/icon-socmed/icons8-instagram-color.svg",
+  "/img/icon-socmed/icons8-linkedin-color.svg",
+  "/img/icon-socmed/icons8-twitter-color.svg",
 ];
  
 self.addEventListener("install", function(event) {
